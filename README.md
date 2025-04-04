@@ -6,6 +6,7 @@ Provides a quick overview of which accounts recently communicated directly with 
 While not totally accurate, since there's an idle time for the connections, this can provide a real-time snapshot of recently active accounts (recently performed access via SMB, WinRM, RPC etc.)<br><br>
 By default, queries all Domain Controllers for logon sessions, displaying all authentication packages & logon types.<br>
 If parameter SamAccountName is specified, highlights sessions (if any) for this specific account, user or computer (SamAccountName$).<br>
+Requires permissions for running PSRemoting on Domain Controllers (klist.exe only)<br>
 
 ### Parameters ###
 #### Output 
